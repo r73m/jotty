@@ -29,7 +29,7 @@ def read_next_note():
 
 
 def get_current_timestamp():
-    timestamp = datetime.now()  # noqa: DTZ005
+    timestamp = datetime.now()
     return timestamp.isoformat(
         sep=" ", timespec="seconds"
     )  # fmt: skip
